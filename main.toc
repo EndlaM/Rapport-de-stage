@@ -1,0 +1,44 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1} INTRODUCTION }{2}{chapter.1}
+\contentsline {chapter}{\numberline {2} PRESENTATION DU GROUPE }{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}LE GROUPE SAFRAN }{3}{section.2.1}
+\contentsline {section}{\numberline {2.2} LES FILIALES DE SAFRAN}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}LES VALEURS DE SAFRAN}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}FOCUS SUR SAFRAN ELECTRICAL \& POWER ET SAFRAN ENGINEERING SERVICES}{4}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1} SAFRAN ELECTRICAL \& POWER }{4}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}SAFRAN ENGINEERING SERVICES}{5}{subsection.2.4.2}
+\contentsline {chapter}{\numberline {3}LA MISSION DU STAGE}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}EXPRESSION FONCTIONNELLE DU BESOIN }{6}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}CONTEXTE DE LA MISSION }{6}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2} OBJECTIFS DE LA MISSION }{6}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}DEROULEMENT DU PROJET}{7}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}PLANNING DU PROJET}{7}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}MODE DE COMMUNICATION}{8}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}TRAVAIL TECHNIQUE}{8}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}CHOIX DES OUTILS DE DEVELOPPEMENT}{8}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}BASE DE DONNEES}{9}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}INTERFACE GRAPHIQUE ET CHOIX DU FRAMEWORK(JAVA FX)}{10}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}ANALYSE DU LOGICIEL}{10}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.4.1} ACCESSIBILITE DU LOGICIEL }{10}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2}PRINCIPALE EVOLUTION}{10}{subsubsection.3.3.4.2}
+\contentsline {subsubsection}{\numberline {3.3.4.3}PAGE D'ACCUEIL}{12}{subsubsection.3.3.4.3}
+\contentsline {subsubsection}{\numberline {3.3.4.4}IDENTIFICATION}{12}{subsubsection.3.3.4.4}
+\contentsline {subsubsection}{\numberline {3.3.4.5}IMPORTATIONS}{13}{subsubsection.3.3.4.5}
+\contentsline {subsubsection}{\numberline {3.3.4.6}AFFAIRES ET SOUS AFFAIRES}{14}{subsubsection.3.3.4.6}
+\contentsline {subsubsection}{\numberline {3.3.4.7}TABLEAU PRINCIPAL}{16}{subsubsection.3.3.4.7}
+\contentsline {subsubsection}{\numberline {3.3.4.8}SYNTHESE}{16}{subsubsection.3.3.4.8}
+\contentsline {subsubsection}{\numberline {3.3.4.9}EXPORTATION}{18}{subsubsection.3.3.4.9}
+\contentsline {subsubsection}{\numberline {3.3.4.10}PARAMETRES}{18}{subsubsection.3.3.4.10}
+\contentsline {subsection}{\numberline {3.3.5}PERSPECTIVES}{18}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}BILAN PERSONNEL}{20}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}MAITRE DE STAGE}{20}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}SERVICE TECHNIQUE}{20}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}SERVICE INFORMATIQUE}{20}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}LE SAVOIR ACQUIS}{21}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}LE SAVOIR-FAIRE}{21}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}LE SAVOIR-ETRE}{21}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.7}COMPETENCES INTER-PERSONNELLES}{21}{subsection.3.4.7}
+\contentsline {subsection}{\numberline {3.4.8}COMPETENCES INTRA-PERSONNELLES}{21}{subsection.3.4.8}
+\contentsline {subsection}{\numberline {3.4.9}RESUME DE MES OBSERVATIONS}{22}{subsection.3.4.9}
+\contentsline {chapter}{\numberline {4}CONCLUSION}{23}{chapter.4}
+\contentsline {part}{Annexes}{25}{chapter*.19}

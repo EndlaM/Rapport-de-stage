@@ -1,0 +1,734 @@
+\textbf  {Resumé} \hskip7mm \\
+\\
+
+Dans un contexte où les mondes aéronautique et aérospatial sont en développement constant, les industries aéronautiques ont besoin de faire appel à des sociétés de prestations. Celles-ci participent de près aux activités des entreprises qui mettent en place des innovations technologiques et les accompagnent dans le suivi de leurs produits, de la conception à la réparation. C’est le cas de \textbf{Safran Engineering Services} qui est une division de SAFRAN ELECTRICAL \& POWER. Ces deux sociétés font partie du groupe Safran, un des leaders mondiaux dans les domaines de l’aéronautique, de l’aérospatial, de la sécurité et de la défense.\\
+
+Je réalise mon stage au sein du service \textbf {Support Equipement de Safran Engineering Services} sur le site Safran de Magny-les-Hameaux, en France.\\
+
+Ma mission pendant les trois mois de stage a sollicité principalement mes compétences en informatique, en relationnel, et en analyse de gestion de projet.\\
+
+Plusieurs fois par mois (entre quatre à cinq fois), mon maître de stage, comme tous les managers de Safran Engineering Services, reçoit des documents sous forme de fichiers Excel. Ces documents sont de taille très importante et décrivent toutes les affaires de l’entreprise. Le nombre de critères étant nombreux, cela rend la lecture de ces fichiers ardue…\\
+
+Le stagiaire avant moi, a donc eu pour mission de développer un outil informatique traitant automatiquement les documents décrivant les affaires, extrayant des données intéressantes et faisant ressortir au mieux l’état des affaires (efficacité financière, productivité de l’équipe…, etc.), durant sa mission en 2016.\\
+
+Mais suite à diverses évolutions des fichiers Excel reçus, l’application est vite devenue obsolète.
+Mon rôle était de \textbf{faire une refonte de l’application, en revoyant l’algorithme et en intégrant l’API java JAVA FX}, dans le but de la rendre opérationnelle, utilisable par nombreux utilisateurs.\\
+
+L’application développée par le stagiaire avant moi était uniquement utilisée par mon tuteur, car il l’a jugé pas assez aboutie pour l’offrir à ses collaborateurs.\\
+
+Très vite l’application devient obsolète et présente de nombreux défauts, c’est à ce moment que j’interviens.
+Ce stage m’a permis de mettre à l’épreuve mes compétences dans la programmation objet au sein d’une entreprise. J’ai eu ainsi la possibilité de \textbf {vérifier mes compétences} et de me rendre compte des qualités utiles pour réussir dans le monde du développement. \\
+
+Mes \textbf {bilans personnels et professionnels} m’aideront à prendre du recul sur mes apports lors de ce stage et à m’autoévaluer.\\
+
+
+\chapter{ INTRODUCTION }
+
+
+	Dans le cadre de ma formation en MIAGE, il m’est demandé d’effectuer un \textbf{stage technique} en entreprise. Il est crucial, de découvrir le monde de l’entreprise, les contraintes liées au métier de développeur et les différentes facettes de ce métier. J’ai voulu rester sur la voie de ma formation spécialisée en informatique en cherchant un stage dans ce domaine. J’ai donc accordé un intérêt particulier à l’offre de stage chez Safran. D’autant plus qu’elle proposait un travail en lien fort avec mes compétences transversales acquises durant ma formation. \\
+    
+De plus, effectuer un tel stage m’offre la possibilité de \textbf{travailler} au sein d’une \textbf{vaste organisation} et \textbf{découvrir le travail dans de telles conditions.}\\
+
+Dans la première partie du présent rapport, je présente l’\textbf{entreprise et son organisation}. Puis j’aborde les points centraux du stage, à savoir la mission qui m’est confiée. Je décris mes activités quant à la méthodologie suivie et les résultats. Ma troisième partie développe l’environnement de travail dans lequel j’ai évolué durant mon stage. J’analyse les \textbf{côtés organisationnel, social et humain}. Finalement, je dresse un \textbf{bilan professionnel et personnel} de ce stage.\\
+
+
+\chapter{ PRESENTATION DU GROUPE }
+  \textit{Tous les chiffres sont tirés de la documentation interne du groupe et des sites Web des sociétés.}
+  
+\section{LE GROUPE SAFRAN }
+
+Safran est un groupe international de haute technologie, leader dans les équipements du domaine de l'Aéronautique de l'Espace, de la Défense et de la Sécurité. Implanté sur tous les continents, le Groupe emploie environ 66 500 personnes pour un chiffre d'affaires de 15,8 milliards d'euros au 31 Décembre 2016.\\
+
+Safran est composé de nombreuses sociétés et occupe des positions de premier plan mondial ou européen sur ses marchés, comme entre autres les marchés des moteurs d’avions civils et d’hélicoptères, des roues et freins carbone pour avions civils... \\
+
+Le groupe est sans cesse en développement grâce notamment à ses dépenses en R\&D d’environ 1,7milliards d’euros en Décembre 2016 soit 11 \% de son chiffre d’affaire.\\
+
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\begin{center}
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/Monde}
+\end{center}
+%légende de l'image
+\caption{L'implantation du groupe en 2016}
+\end{figure}
+
+
+Safran a ses racines et son cœur technologique et industriel en France et plus largement en Europe. Néanmoins, l’entreprise s’est largement déployée en Amérique, Afrique, Asie et Océanie. Cette présence mondiale lui permet d’établir et d’entretenir des relations industrielles et commerciales avec les plus grands maîtres d’œuvre et opérateurs.\\
+
+
+
+\section{ LES FILIALES DE SAFRAN}
+
+Depuis le 19 mai 2016, toutes les filiales du groupe ont pris le nom de Safran, un logo unique, et même slogan : « la confiance est notre moteur ». Cette décision prise par le directeur Monsieur Philippe Petitcolin est un moyen de renforcer l’esprit de groupe, dont la moitié a été recrutée il y a moins de cinq ans. On retrouve par exemple pour SNECMA le nom Safran Aircraft Engines, pour SAGEM Safran Electronics \& Defense et pour Labinal Power System, la société dans laquelle je me situe, Safran Electrical \& Power.\\ 
+
+Voici les changements de noms au sein du groupe :
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\begin{center}
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/societes}
+\end{center}
+%légende de l'image
+\caption{Nouveaux noms des filiales de SAFRAN}
+\end{figure}
+
+
+\section{LES VALEURS DE SAFRAN}
+
+Dans le but d’affirmer son image vis-à-vis de toutes ses parties prenantes, Safran fonde son identité sur sept valeurs.
+
+\begin{itemize}
+\item Être disponible à l’égard du \textbf{client qui est la priorité}
+\item \textbf{L’innovation et la créativité} à tous les niveaux de l’entreprise
+\item \textbf{La puissance du travail d’équipe}, la solidarité et le partage du savoir-faire
+\item \textbf{La responsabilité citoyenne} et la prévention des risques de santé, sécurité et environnement
+\item \textbf{Le respect des engagements}
+\item \textbf{Être réactif} et anticiper les besoins de marchés
+\item \textbf{La valorisation des hommes et des femmes}
+\end{itemize}
+
+\section{FOCUS SUR SAFRAN ELECTRICAL \& POWER ET SAFRAN ENGINEERING SERVICES}
+\subsection{ SAFRAN ELECTRICAL \& POWER }
+
+Safran Electrical \& Power regroupe plus de 14200 collaborateurs répartis sur 45 sites dans le monde entier. Cette filiale rassemble l’ensemble des activités électriques du groupe Safran pour le marché aéronautique.\\
+
+Des activités d’ingénierie viennent compléter cette offre dans les secteurs l’aéronautique, l’automobile et le ferroviaire. Safran Electrical \& Power est le fruit de l’union de plusieurs sociétés du groupe, dont Safran Engineering Services où j’ai effectué mon stage.\\
+
+%inclusion d'une image dans le document
+\begin{figure}
+\begin{center}
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/sep5}
+\end{center}
+%légende de l'image
+\caption{Division de Safran Electrical \& Power }
+\end{figure}
+
+
+
+\subsection  {SAFRAN ENGINEERING SERVICES}
+
+Fort d’une expertise unique dans les domaines aéronautique et automobile, Safran Engineering Services est fournisseur de services d’ingénierie et de conseils sur tout le cycle de vie des programmes de leur client :\\ 
+
+\begin{itemize}
+\item Pré-études
+\item Système de test
+\item Intégration
+\item Support en exploitation
+\item Missions d'assistance technique
+\item Modification cabine
+\item Missions d'expertise
+\item Gestion de projet
+\item Formation\\
+\end{itemize}
+
+Ces services reposent sur l'expertise de domaines opérationnels, offrant les standards de qualité les plus élevés dans chacune de ces activités :
+
+\begin{itemize}
+\item Systèmes Propulsion intégrés
+\item Aérostructure \& Equipements mécaniques
+\item Electricité \& Puissance
+\item Systèmes Intégrés
+\item Systèmes Equipements
+\item Ingénierie de Production Support en Service\\
+\end{itemize}
+
+
+Safran Engineering Services rassemble 3 900 ingénieurs et techniciens expérimentés, répartis dans 10 pays (France, Allemagne, Royaume-Uni, Espagne, Etats-Unis, Mexique, Maroc, Canada, Brésil et Inde), fournit des services d'ingénierie de l'identification du besoin à la livraison. Ces experts sont également sollicités dans le cadre des grands projets R\&T européens.\\ 
+
+J’étais donc affecté au Service Equipement, sous la tutelle du chef de service, Jean-Charles PINARE.
+
+\chapter{LA MISSION DU STAGE}
+\section{EXPRESSION FONCTIONNELLE DU BESOIN }
+
+	Lors de mon stage, j’ai pu relever trois aspects principaux qui ont joué un rôle relativement important tout au long de ma mission : son contexte et sa mise en situation, le travail technique en lui-même et enfin l’aspect relationnel.
+
+\subsection{CONTEXTE DE LA MISSION }
+
+Avant de me lancer dans la refonte de l’outil, je devais déjà maitriser l’outil existant et comprendre précisément les attentes de mon tuteur.\\
+
+L’étape d’apprentissage et de  maîtrisE de l’outil a son importance cruciale, car sinon j’aurais pu faire les mêmes erreurs que le précédent stagiaire. C’est pourquoi elle a pris deux semaines environ. Cette durée est conséquente devant la courte durée du stage avant la soutenance.\\
+
+Pendant ces deux semaines, j’ai été informé de l’organisation du département. Mon tuteur a pris le temps de me former sur la modélisation d’une affaire, avec les différents critères qu’elle regroupe.\\
+
+Comme le représente \textbf {la figure 4}, le suivi des affaires d’un département se fait par l’intermédiaire de plusieurs fichiers Excel contenant un grand nombre d’informations. On compte à peu près 8000 affaires différentes. Ces fichiers sont ensuite partagés à tous les chefs de département plusieurs fois par mois.\\ 
+
+Pour éviter de perdre du temps à traiter constamment les données une à une, \textbf{il existait déjà des fichiers Excel prenant en charge des Macros permettant de faire ressortir les valeurs intéressantes de ces données}. Ce dispositif n’est toutefois pas sans inconvénient. Il n’a pas de stockage des informations en base de données, son ergonomie est limitée par les fonctionnalités qu’Excel permet et des problèmes de portabilités peuvent se poser lors de changement de version d’Excel.\\
+
+Une \textbf{brève spécification de l’outil à réaliser a été faite} auparavant sous la forme d’un diaporama relatant les diverses fonctions que le logiciel devrait avoir.
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\begin{center}
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/schemaAffaire}
+\end{center}
+%légende de l'image
+\caption{Organisation pour le suivi des affaires}
+\end{figure}
+
+\subsection{ OBJECTIFS DE LA MISSION }
+La \textbf{refonte de l’outil de pilotage des affaires} est une expression assez vague dite telle quelle. Les deux premières semaines de mise situation de ma mission ont été nécessaires pour expliciter au mieux mes objectifs.
+La mission est de rendre opérationnel \textbf{l’outil qui permettait de suivre les affaires} en traitant automatiquement les données externes (fichiers Excel). \\
+
+Il doit faire ressortir les critères importants, avertissant le chef de département de l’état des affaires. Ainsi, l’utilisateur a accès à la cause, à l’état et aux différentes solutions pour chaque affaire.
+Les données d’entrée sont des fichiers Excel donnant les différentes valeurs qui permettent le suivi des affaires (CA, Marge, charge…).
+
+Les contraintes que le logiciel devait respecter sont les suivantes :\\
+\begin{itemize}
+\item Sécurité (connexion sous login et mot de passe)
+\item Organisation (menu permettant de naviguer de fonctionnalité en fonctionnalité)
+\item Importation (données d’entrée à rentrer via ce logiciel)
+\item Base de données (ces données importées sont stockées sur une base de données)
+\item Différentes vues (dépend de l’utilisateur qui s’y connecte : chef de projet / responsable de service / responsable de département) de suivis et synthèse des affaires
+\item Ergonomie (simplicité d’utilisation)
+\item Paramétrage\\
+\end{itemize}
+
+Cet objectif fonctionnel est intercalé avec un objectif temporel strict. En effet, la durée de stage du précèdent stagiaire était de 3 mois. Et il fallait rendre un outil qui marche un minimum donc il n’était donc pas attendu par le maître de stage que le logiciel soit entièrement fonctionnel à la fin de son stage.
+Pour ma part, j’ai dû revoir l’algorithme d’importation, la sécurité, les paramétrages, ainsi que l’ergonomie, du logiciel existant.
+
+\section{DEROULEMENT DU PROJET}
+\subsection{PLANNING DU PROJET}
+
+Avant de me lancer directement dans la refonte totale du logiciel, il a fallu, mon maître de stage a bien insisté sur ce point, que je mette en place une \textbf{spécification et un plan d’action} pour mon futur logiciel. Cela fait partie intégrante de toute conception, surtout en entreprise et d’autant plus que le travail est collectif.  Collectif car un second stagiaire me rejoindra sur le développement de l’application deux semaines avant ma soutenance.\\
+
+Une documentation de spécification est nécessaire aux personnes amenées à reprendre mon travail. Elle me permet à moi-même d’évoluer dans mon projet de manière stable, anticipée et précise. Comme le dit mon maître de stage « Pour gagner du temps, il faut d’abord commencer par en perdre ». \\
+
+J’ai donc dû créer un \textbf{fichier suivi d’activité} sous Excel ou chaque feuille regroupait mes activités pour la semaine et un \textbf{planning prévisionnel} du projet beaucoup plus général avec l’outil Gantt Project afin de fixer les échéances (annexe 1). Il m’a ainsi été possible de comparer le planning final avec l’objectif selon le retard ou l’avance des tâches. Ce planning a dû être retouché maintes fois en raison de la difficulté que j’ai eue à découper au mieux mon projet en un maximum de tâches. Il a subi de nombreuses modifications lors de points de synchronisation, car les priorités changeaient parfois.\\
+
+Tous les documents de spécifications-conception et le planning devaient se faire dans des formats particuliers en respectant des contraintes communes de Safran. Par exemple, tous mes documents Word doivent être associés à des Template spécifiques de Safran. Ils doivent également être enregistrés sur le réseau de l’entreprise à des endroits bien précis et respecter un codage particulier grâce à des documents annexes pré remplis.\\
+
+\subsection{MODE DE COMMUNICATION}
+
+Au sein de l’entreprise, on a accès à une \textbf{messagerie interne et sécurisée}, nous permettant de programmer des réunions. On a donc décidé d’effectuer le projet de façon incrémentale, en faisant des \textbf{points d’avancées chaque jour} pendant une trentaine de minutes et une réunion hebdomadaire chaque vendredi pendant une heure et demi pour décider des nouvelles fonctionnalités de la semaine à venir.\\ 
+
+A chaque évolution du logiciel, je me devais de tagguer la version et de la mettre sur le réseau avec une checklist de livraison (Annexe 3 ).
+Le travail qui m’est demandé est personnel, dans le sens où je suis seule à développer le logiciel, en attendant le deuxième stagiaire, sachant que le stagiaire précédent n’avait pas fait de documents de conception-spécification pour que je puisse reprendre son travail dans de bonnes conditions.\\
+
+Mon tuteur m’a donc demandé de rédiger un manuel utilisateur listant les problèmes rencontrés et solutions, pour chaque logiciel utilisé. Pour éviter de perdre du temps avec le prochain stagiaire car suite aux problèmes d’accès administrateurs, de sécurité sur les postes, par rapport aux sites autorisés sur Internet, l’installation des outils m’a pris environ 4 jours.\\
+
+Il faut garder en tête que tout travail effectué doit être à même d’être utilisé après par de nouvelles personnes et compréhensible pour tous ceux qui m’accompagnent pendant ma mission.
+
+
+\section{TRAVAIL TECHNIQUE}
+\subsection{CHOIX DES OUTILS DE DEVELOPPEMENT}
+
+Le précédent stagiaire avait une certaine autonomie quant au choix des outils de développement.\\
+
+Il avait donc opté pour le \textbf{langage Java}, en ce qui concerne l’interface graphique sur lequel interagit l’utilisateur, \textbf{l’IDE Eclipse}. L’IDE que j’ai toujours utilisée jusqu’à lors était \textbf{Intelli J} de la distribution Jet Brains, mais celle-ci est payante, j’ai donc poursuis avec Eclipse.\\
+
+Après maintes réflexions et recherches, j’ai opté pour le \textbf{Framework Java FX} qui assure une interface graphique moderne et esthétique, car l’ancienne interface graphique était faite en \textbf{Swing} et c’est ce qui ne convenait pas au tuteur.\\
+
+Avec l’aide de \textbf{Scene Builder} qui est un générateur \textbf{"d'interface graphique"}, j’ai donc pu créer des maquettes, les proposer à mon tuteur pour validation, avant de coder, ce qui représente un énorme gain de temps, car il arrivait que l’on ne soit pas d’accord.\\
+
+Pour la gestion des erreurs, j’utilise \textbf{Mantis}. On m’a délégué les accès au projet comme étant développeuse et mon tuteur comme Chef de Projet. L’outil permet de lister les différents bugs suivant le degré de sévérité, de les clore, de les affecter à d’autres personnes…\\
+
+Pour la gestion des erreurs, j’ai dû me former à l’utilisation de l’\textbf{API Log4J}, en premier lieu pour rediriger les erreurs dans un fichier de sortie accessible aux non-développeurs, ensuite j’ai découvert beaucoup d’utilité quant à cette API.\\
+
+Pour la base de données, j’ai voulu assurer une certaine continuité de l’existant et des enseignements proposés à l’université en continuant avec \textbf{MySQL}.\\
+
+J’ai fait le choix du logiciel \textbf{MySQL WorKbench} pour pouvoir valider les différentes importations et juger de la cohérence des données insérées en base.\\
+
+J’ai également appris à développer parallèlement avec le \textbf{gestionnaire de version SVN, avec Tortoise SVN (Version 1.9.4)}, qui est un gestionnaire de configuration permettant de stocker des informations pour une ou plusieurs ressources informatiques.\\
+
+Dans mon cas, utiliser un gestionnaire est idéal car on est emmené à travailler à deux sur le même projet. On se servira donc du gestionnaire pour stocker toute évolution du code source, taguer les versions, récupérer toutes les versions intermédiaires des ressources, ainsi que les différences entre les versions.\\
+
+Forte de propositions, j’ai proposé \textbf{Git} à mon tuteur car j’ai déjà eu à m’en servir dans le cadre de travaux scolaires mais le service dans lequel je suis affecté a toujours travaillé avec SVN et ne voulait pas forcément changer de gestionnaire, j’ai donc dû me former à \textbf{SVN}.\\  
+
+\subsection{BASE DE DONNEES}
+
+La base de données existantes était composée de 4 tables, chaque table se référant à un fichier Excel à importer.
+En tenant compte des évolutions envisagées et aux besoins actuels, j’ai dû reprendre la base de données et créer 4 tables supplémentaires, car je devais gérer 3 importations en plus.\\
+
+Cette base est accessible via un serveur connecté sur le réseau. A chaque import via le logiciel, la base de données récupère et stocke les informations nécessaires sur ces sept tables.\\
+
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\begin{center}
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/localhost}
+\end{center}
+%légende de l'image
+\caption{Première fenêtre de connexion à la base de données}
+\end{figure}
+
+J’ai travaillé avec l’outil de traitement des bases de données MySQL Workbench durant toute la durée de mon stage. Cet outil me servait surtout d’intermédiaire lorsque je voulais vérifier les cohérences entre les compilations Java et les requêtes SQL.
+
+La suppression des données relatives à un mois et une année bien précise peut se faire via le logiciel, lorsque l’utilisateur a les droits requis. 
+
+\subsection{INTERFACE GRAPHIQUE ET CHOIX DU FRAMEWORK(JAVA FX)}
+
+Suite à diverses recherches, j’ai conclu que Java FX correspondait à notre besoin. La raison d’un tel choix a été \textbf{soutenue par les experts du Service Logiciel informatique}. Ils ont mis en avant la possibilité de faire des interfaces graphiques, beaucoup plus ergonomiques et plus attirantes pour les futurs utilisateurs comparés aux interfaces existantes.\\ 
+
+L’interface graphique de l’outil a pour finalité d’être le plus ergonomique possible pour répondre au besoin principal du projet qui est de \textbf{simplifier au maximum le traitement et l’analyse des données reçues}.\\
+
+Le logiciel que j’ai repris est composé de 4 couches et neuf IHM (Interface Homme-Machine), toutes n’étant pas nécessairement accessibles selon que l’utilisateur possède les droits administrateurs ou non. Les résultats dans la fin de cette partie décrivent plus précisément chaque couche et son utilisation.\\
+
+Dans le nouveau logiciel, j’ai décidé d’intégrer des onglets qui remplaceraient les liens affichés après s’être connecté. La navigation est plus simple, sécurisée et concise. 
+
+\subsection{ANALYSE DU LOGICIEL}
+J’ai donc repris la structure du code, en remettant en forme, en raison des nouvelles fonctionnalités et diverses tables qu’il fallait rajouter. En veillant à bien \textbf{éparer au mieux les différentes fonctions du code}, car il existait environ 8 packages composés d’environ 10 classes java, avec ma contribution j’avais au total 14 packages.\\
+
+La succession des étapes depuis l’import des fichiers Excel jusqu’à l’affichage des résultats est décrite dans le schéma ci-dessous (figure 5). J’y détaille les fonctions exercées par les classes et packages importants.\\
+
+D’autres packages sont également présents dans le programme mais ils n’ont pas de lien direct avec la fonction principale du logiciel.
+
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\begin{center}
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/Navigation}
+\end{center}
+%légende de l'image
+\caption{Structure du code du logiciel OURAZ}
+\end{figure}
+\subsubsection{	ACCESSIBILITE DU LOGICIEL }
+
+Pour proposer le logiciel aux collaborateurs, il a été nécessaire de mettre en place un fichier téléchargeable et exécutable pour lancer mon programme, grâce à la fonction Import d’eclipse permettant de générer un jar.\\
+
+Pour l’accès au serveur SQL, l’ancien stagiaire a dû autoriser manuellement l’accès via toutes les adresses IP concernés, j’ai remédié à cela en autorisant automatiquement les collaborateurs à accèder au serveur MySQL en respectant le dispositif de sécurité. \\
+
+Un des principaux problèmes que j’ai pu avoir lors de ma première livraison, était que mon projet n’était pas execuable sur la machine du tuteur, pourtant il s’exutait bien sur les machines de mes voisins. Une collègue nous a proposé de mettre à jour la version de Java ce qui résolu le problème. J’ai quand même perdu beauocup de temps sur cela car, je n’avais que mon environnement de developpement pour tester, et je ne pouvais pas éxecuter le logiciel en ligne de commande sur le poste du tuteur pour diverses raison de sécurité.\\
+
+Le second problème était qu’un simple fichier jar ne pouvait pas être suffisant. En effet, le fichier jar exporté depuis Eclipse fonctionnait parfaitement sur mon ordinateur mais il m’a fallu créer une archive particulière lib regroupant les librairies requises par mon programme pour que le fichier jar pût être utilisé sur un autre PC.\\ 
+
+J’ai du créer un fichier Manifest.inf pour spécifier le chemin d’accès au répertoire lib. Toutes les erreurs étaient régulièrement listées sur Mantis. (capture en annexe) \\
+
+Finalement, \textbf{on peut accéder simplement au programme via le réseau et en ayant les droits d’accès}.
+
+\subsubsection{PRINCIPALE EVOLUTION}
+
+Le logiciel terminé et fonctionnel proposé par l’ancien stagiaire, avait de nombreuses failles, car tout était mis en dur, que ce soit les identifiants ou les noms de colonnes des fichiers à importer. \\
+
+Le logiciel est terminé et en tout cas fonctionnel et accessible. Il répond aux qualités d’ergonomie, de synthétisation, de sécurité, de fusion de données et de mise en alerte comme le demandait mon maître de stage.\\
+
+Il est composé de 9 IHM.  On peut réaliser les fonctions suivantes :
+\begin{itemize}
+\item Se connecter aves ses identifiants. Cela permet un apport en sécurité et une adaptation des IHM en fonction de l’utilisateur
+\item Si l’utilisateur est administrateur : importer les fichiers Excel externes de suivi des affaires.
+\item Avoir une vue sur l’ensemble des affaires du mois choisi, des bons de livraison et des pointages des salariés sous forme de tableurs et de graphes. Les affaires ne sont que celles concernant l’utilisateur.
+\item Avoir une vue synthétique sur un mois (sans rentrer dans les détails) en affichant graphes, indicateurs importants et icônes d’alertes. Les affaires ne sont que celles concernant l’utilisateur.
+\item Si l’utilisateur est administrateur : paramétrer le logiciel.
+\item Se déconnecter. Cela permet un apport en sécurité.
+\end{itemize}
+
+
+
+\subsubsection{PAGE D'ACCUEIL}
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\begin{center}
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/acceuil}
+\end{center}
+%légende de l'image
+\caption{Nouvelle page d'accueil SAFRANALYSE}
+\end{figure}
+
+
+On y fait apparaître le nom du logiciel (anciennement OURAZ, venant d’Outil Razban) et les logos de Safran, pour l’ancienne application dorénavant Safranalyse. L’interface actuelle est plus moderne et moins chargée. 
+
+\subsubsection{IDENTIFICATION}
+Dans l’ancienne version l’utilisateur rentrait ses identifiants définis au préalable et avait accès à un certain contenu selon sa fonction. Si les identifiants sont faux, un message avertit l’utilisateur.\\ 
+
+Dans la version améliorée, j’ai créé une table Utilisateur regroupant les informations de connexion (Login, password, et status).\\ 
+En fonction du statut de l’utilisateur, on aura accès aux onglets correspondants, car les chefs de département et de services ont plus de droit que les chefs de projet. Les anciens logins n’étaient pas réels, l’ancien stagiaire les avaient rentrés en dur dans le programme.\\
+J’ai donc remédier à ça, en veillant toutefois à ce qu’il y ait bien le respect de l’inégalité de l’information en fonction de l’utilisateur qui se connecte. Les chefs de département et de service ont donc les droits d’administrateurs (peuvent accéder à la page Importation et Paramètres en plus).\\
+
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\begin{center}
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/connexion}
+\end{center}
+%légende de l'image
+\caption{Page de connexion}
+\end{figure}
+
+
+Après s’être connecté on accède au menu. En tant qu’administrateur, on peut :\\
+\begin{itemize}
+\item Accéder à l’onglet Importation des documents
+\item Avoir une vue d’ensemble des affaires du service avec des indicateurs
+\item Voir une synthèse de chaque mois, principalement des graphes
+\item Paramétrer le logiciel, c’est-à-dire supprimer des mois, ou augmenter la police
+\item Se déconnecter
+\end{itemize}	
+
+Sans droit d’administrateur, il n’est pas possible d’accéder aux liens Importer et Paramètres, comme on peut le voir sur la figure ci-dessous.
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\begin{center}
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/bienvenue}
+%légende de l'image
+\end{center}
+\caption{Menu Administrateur OURAZ}
+\end{figure}
+
+
+
+
+Comme je l’ai cité plus haut, le nouveau logiciel a des onglets à la place des liens cliquables ce qui permet une navigation plus fluide et ergonomique.
+Vous pourriez le voir dans la figure ci-dessous.
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\begin{center}
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/sousaffair2}
+\end{center}
+%légende de l'image
+\caption{Vue après connexion et accès à une sous-affaire}
+\end{figure}
+ 
+\subsubsection{IMPORTATIONS}
+
+L’utilisateur importe les fichiers (Excel) qu’il veut ( Figure 12 : Page d’importation OURAZ). Lorsque l’import est terminé, une confirmation apparaît. Il doit parcourir le document à importer grâce au bouton « … », puis choisir le mois d’import, puis valider en cliquant sur « OK ». Si le fichier n’est pas le bon ou s’il y a une erreur, un message d’erreur apparaît.\\
+
+J’ai revu pour la dernière version l’algorithme des différents fichiers d’importations, car tout était codé en dur, en cas de changement de version avec Excel, l’importation ne fonctionnait plus. C’est ce qui est arrivé 3 mois après le départ du stagiaire, le logiciel était obsolète.\\
+
+J’ai donc pu mettre en place dans un dossier Resources un fichier « importation.properties » composé d’une clé valeur listant les différents noms des colonnes de tous les fichiers Excel. Pour accéder aux valeurs, j’ai créé une classe retournant les différentes lues. Dans le code, j’ai créé des variables stockant le nom des colonnes correspondant. Donc actuellement, si une colonne change de nom, il suffira de changer le fichier de Configuration mis en place et ne pas changer tout le code.\\ 
+
+Suite à un manque de temps, le stagiaire n’avait pas implémenté l’importation du budget, or ce dernier entre en compte dans le calcul du CA, j’ai donc créé la table correspondante ainsi que les classes qui servent de « controller ». A terme, la page d’importation devrait ressembler à la figure Page d’importation Safranalyse.\\
+
+%inclusion d'une image dans le document
+\begin{figure}
+\center
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/importation}
+%légende de l'image
+\caption{Page d’importation Safranalyse}
+\end{figure}
+
+\newpage
+\subsubsection{AFFAIRES ET SOUS AFFAIRES}
+
+On affiche toutes les affaires avec certains critères. L’interface est séparée en 5 majeures parties. \\
+
+La première contient le bouton retour pour revenir au Menu et une liste déroulante pour choisir la date à laquelle on veut suivre les affaires. 
+La deuxième, dans le coin haut-droite, contient des informations sur le cumulé au mois choisi du CA, Facturé et Coût. \\
+
+La troisième contient le tableau principal renseignant sur toutes les affaires du mois avec des valeurs relatives uniquement au mois. \\
+
+La quatrième est composée de deux tableaux renseignant l’un sur les « Bordereau Livraison », l’autre sur la « Gestion Personnel » de l’affaire sur laquelle on a cliqué. Ils renseignent sur toute l’année, et les valeurs concernant le mois choisi sont en jaune.\\ 
+
+La cinquième est un ensemble de quatre onglets (CA, Marge, Efficacité, TAF) représentant l’évolution de ces valeurs sur l’année.\\
+
+En récupérant le logiciel, les tableaux BL Affaire et GP Affaire n’étaient pas implémentés, et certains calculs étaient erronés, j’ai donc dû reprendre le calcul des indicateurs pour afficher les bonnes valeurs en gardant en tête qu’une affaire est composé de sous affaires mais que son chiffre d’affaire n’est pas la somme des sous-affaires. Cette tâche, s’est révélé, très intéressante car j’ai pu mettre en pratique toutes les notions déjà acquises sur le suivi des affaires du service.  Mon tuteur a été très présent pour éclaircir tous les points qui n'étaient pas clairs.  
+Actuellement on peut :
+\begin{itemize}
+\item Double-cliquer sur une affaire pour avoir la liste des sous-affaires de l’affaire, j’ai dû reprendre cette fonctionnalité car elle n’était pas disponible
+\item Cliquer sur une affaire pour avoir ses BL et GP (les salariés sur l’affaire et le nombre d’heures passées dessus par mois)
+\item Voir les CA, Facturé et Coût totaux des affaires
+\item Double cliquer sur les graphiques pour afficher en grand les courbes.
+\item Cliquer sur « Affaires Closes » pour afficher ou non les affaires closes
+\item Cliquer sur « Affaires sans consommation » pour afficher ou non les affaires sans consommation
+\item Changer la date des affaires à montrer\\
+\end{itemize}
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\center
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/affaire1}
+%légende de l'image
+\caption{Page suivi des affaires}
+\end{figure}
+
+Comme cité plus haut, en double-cliquant sur une affaire on accède à ses sous-affaires. Les sous-affaires sont affichées avec certains critères.\\
+
+Pour les sous-affaires, c’est une interface très similaire à l’interface des affaires. Toutefois, on est informé (dans le titre) du chef de projet et du client, que l’on n’a plus d’information sur les salariés pointant sur l’affaire. On a également un graphique représentant l’évolution du CA, Efficacité Marge et TAF de l’affaire dans sa globalité et un autre graphique qui représente l’évolution des mêmes critères de la sous-affaire sur laquelle on clique.\\
+
+On peut : 
+\begin{itemize}
+\item Cliquer sur une affaire pour avoir le graphique de l’évolution de son CA
+\item Voir le BL de l’affaire, CA, Facturé et Coût totaux de l’affaire
+\item Voir les graphiques d’évolution du CA total
+\item Voir le numéro de l’affaire, son chef et son client
+\end{itemize}
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\center
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/affaire}
+%légende de l'image
+\caption{Page suivi des affaires Safranalyse}
+\end{figure}
+
+
+Je suis actuellement en train de développer le code correspondant pour l’implémentation de cette IHM. L’actuelle application est basée sur le modèle MVC, ce qui n’était pas le cas pour l’ancienne application. Il est aussi important de noter que le code de l’ancien stagiaire est difficilement réutilisable parce qu’il avait fait l’interface graphique Swing, sans séparer les différentes couches, donc tout était lié.\\
+
+\subsubsection{TABLEAU PRINCIPAL}
+
+Des drapeaux et des couleurs permettent d’alerter l’utilisateur de l’état de ses affaires. Une légende explique leur signification en dessous du tableau. Les valeurs qui ne peuvent pas être connues sont coloriées en gris. Les valeurs négatives sont en rouge. Lorsqu’une affaire a trop de problèmes, elle est intégralement coloriée en fond rouge. Une barre d’avancement est également présente et la couleur montre l’évolution de cette avancement par rapport au mois précédent. La proportion de la case qu’elle remplit vaut l’avancement de l’affaire.\\
+
+\subsubsection{SYNTHESE}
+On affiche, pour un mois donné, la synthèse de celui-ci avec une partie (la partie du haut) portant sur le financier, l’autre, celle du bas, portant sur le personnel. Elle permet d’enlever encore un effort d’analyse de la part de l’utilisateur.\\
+
+Première partie: 
+\begin{itemize}
+\item Graphe sur le CA et le budget correspondant
+\item Graphe sur la marge mensuelle et cumulée
+\item Indicateurs financiers avec une icône synthèse (soleil, nuage, pluie)
+\end{itemize}
+
+Deuxième partie :
+\begin{itemize}
+\item Graphe sur l’efficacité global et la référence
+\item Graphe sur la productivité, le cumulé et la référence
+\item Indicateurs d’effectif\\
+\end{itemize}
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\center
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/synthese}
+%légende de l'image
+\caption{Synthèse Ouraz }
+\end{figure}
+
+
+\subsubsection{EXPORTATION}
+On peut actuellement récupérer différents graphes en double-cliquant sur les historiques CA, MA,…\\
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\center
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/sousaffaire1}
+%légende de l'image
+\caption{Page suivi des sous-affaires}
+\end{figure}
+
+\subsubsection{PARAMETRES}
+On peut :
+\begin{itemize}
+\item Supprimer les affaires importées sur la base de données relatives au mois que l’on veut (en cas de mauvais import ou autre)
+\item Changer la taille de la police\\
+\end{itemize}
+
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\center
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/suppression}
+%légende de l'image
+\caption{Paramètres des affaires}
+\end{figure}
+
+Comme évolution de l’application Safranalyse, j’ai réuni l’onglet Synthèse et Paramètres (Figure LIEN , la vue Paramètres ne sert qu’à supprimer des affaires et à changer de police, donc ses deux fonctionnalités seront réunies dans la vue Synthèse. Ceci dans le but de libérer de l’espace pour différents onglets qui devront être insérer dans l’application.\\
+
+%inclusion d'une image dans le document
+\begin{figure}[!h]
+\center
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=15cm]{images/synthesee}
+%légende de l'image
+\caption{Synthèse et paramètres }
+\end{figure}
+
+\subsection{PERSPECTIVES}
+Le logiciel que j’ai repris est à ce-jour est totalement fonctionnel.\\
+
+Ce logiciel, malgré sa facilité d’utilisation et sa réponse satisfaisante aux besoins initiaux, est perfectible sur plusieurs points : la \textbf{forme}, le \textbf{fond}, la \textbf{structure du code}, l’\textbf{accessibilité du logiciel} et la \textbf{complexité de celui-ci}.\\
+
+Comme il a été mentionné plus haut, le Framework utilisé pour l’interface graphique de ce logiciel est le Java Swing. Il est donc important de noter que les objets, les couleurs et transparences n’atteignent pas le niveau d’esthétisme du Framework Java FX.\\ 
+
+C’est un point majeur sur lequel a insisté mon tuteur, car le logiciel devra être distribué à nombreux utilisateurs dont les chefs de département.
+Le but de cet outil est de simplifier le travail de l’utilisateur lors du suivi des affaires.\\
+Safranalyse, devra à terme intégrer de nouvelles fonctionnalités proposées par mon tuteur, telles que :
+\begin{itemize}
+\item Plan de charge
+\item Intégration de la matrice de compétences 
+\item Gestion des frais de déplacements
+\item Traitement des données (analyse des coûts, facturation, analyse par client…)
+\item Génération de rapport
+\item Consolidations des chiffres de plusieurs départements/services
+\item Comparaison de l’année N et N-1\\
+\end{itemize}
+
+L’intégration de ces nouvelles fonctionnalités se fera après ma soutenance car mon stage finira en mi-Aout, et à ce moment nous serons deux stagiaires sur le projet.
+Ce projet était un travail informatique, et le résultat provient donc d’un algorithme. L’amélioration du logiciel implique l’amélioration du code. Pour ce faire, une amélioration au préalable de la structure de code, de sa lisibilité et de sa facilité de modification – grâce à des outils tels que Sonar par exemple, que je vais devoir intégrer dans Safranalyse. \\
+
+Enfin, comme dans tout algorithme, on peut chercher à diminuer la complexité du code. Bien que pour le moment ça n’ait pas l’air très conséquent, la complexité et la lenteur d’exécution du code peut croître rapidement à chaque ajout de nouvelle fonctionnalité.
+
+\section{BILAN PERSONNEL}
+Lors de ma mission, j’ai été sollicité par des personnes exerçant différentes fonctions. Ces interactions ont été importantes pour ma progression dans mon domaine, mon intégration dans le site et ma compréhension du monde de l’entreprise en tant que développeuse.\\
+
+\subsection{MAITRE DE STAGE}
+Mon principal interlocuteur et également la personne la plus proche de mes avancées dans le développement du logiciel, c’est mon maître de stage. C’est avec lui que j’ai eu tous les jours des points d’avancement permettant ma mise en situation dans le projet et détaillant mon avancé dans le projet. \\
+
+Il a suivi son rôle de manager en me fournissant une bonne motivation, et des remarques surtout dans le domaine extra-fonctionnel au début. Il m’a appris beaucoup quant au comportement que je devais avoir dans une telle société. Il m’a apporté des conseils quant à la communication avec le reste du personnel : il faut savoir s’imposer et se montrer, surtout en tant que jeune arrivant dans une entreprise.\\
+
+Dans la partie technique, il critiquait quand il avait le temps quelques morceaux de mon code. Mais il me supervisait surtout d’un point de vue global, quant à ma façon de travailler et confirmait ou non mes choix.\\
+
+\subsection{SERVICE TECHNIQUE}
+C’est avec le service technique que j’ai eu à faire mes premières négociations qui m’ont fait découvrir les difficultés de communication avec les services extérieurs à l’équipe interne. Ce service a été en quelque sorte mon fournisseur de hardware et m’autorisait l’accès aux téléchargements des softwares dont j’avais besoin. Les communications n’étaient pas toujours fructueuses car j’attendais des résultats prompts, tandis qu’ils étaient de leur côté souvent débordés de travail. Il fallait donc savoir jongler entre s’imposer et respecter. Un gros travail qui m’a permis d’enrichir mon relationnel.\\
+
+\subsection{SERVICE INFORMATIQUE}
+Le service informatique était essentiellement là pour m’aider concrètement sur les difficultés en développement qu’il m’arrivait de rencontrer. Il me semblait délicat au premier abord de demander de l’aide. Mais j’ai réussi à prendre du recul petit à petit et à oser poser les questions auxquelles je ne trouvais pas de réponse. Je remercie tout particulièrement Mme Fatiha Bougmati, Walter LeGivre et Kévin Gortran qui m’ont beaucoup aidé et conseillé en n’hésitant pas de jeter un coup d’œil à mon code.\\
+
+L’\textbf{auto-évaluation} lors de mon stage est très importante pour mon avenir. Je dois savoir quelles compétences j’acquiers, autant au niveau \textbf{personnel} que \textbf{professionnel}. Je vais donc procéder un bilan de ces compétences, ceci me permettra d’envisager la suite de mon parcours professionnel. Au niveau du bilan professionnel, on distingue le savoir avec ce qu’on apprend en entreprise et ce qu’on a appris à l’école, le savoir-faire et le savoir-être.\\
+
+\subsection{LE SAVOIR ACQUIS}
+J’ai utilisé un \textbf{certain savoir acquis à l’école} dans l’exécution de mes tâches quotidiennes. J’ai en effet choisi un stage en\textbf{ développement informatique} avec une part de gestion de projet pour pouvoir améliorer mon niveau en Java. Les connaissances des langages m’ont été utiles pour traiter le projet auquel je participe.\\
+
+En plus du savoir acquis, j’ai développé de nouvelles notions importantes sur l’informatique quant à l’utilisation d’outils tels que SVN, Mantis… J’affine ces \textbf{compétences} avec des aspects non abordés en cours.\\
+
+L’organisation, la mise en place et le suivi régulier de l’avancement du projet m’ont appris la rigueur, terminer les projets dans les temps, et toujours prendre du recul sur ce que l’on fait, avec un œil neuf.\\
+
+J’ajouterai que ce stage m’apporte des \textbf{connaissances plus approfondies sur le groupe Safran} et les différentes activités de chacune des entreprises du groupe. La rencontre d’ingénieurs ayant travaillé dans quelques-unes de ces sociétés m’apporte des informations au quotidien. Ma culture générale financière s’améliore, et je conçois mieux les notions qu’il y a derrière les critères et indicateurs financiers utilisés par les chefs de service.\\
+
+\subsection{LE SAVOIR-FAIRE}
+
+Pour que ce stage soit bénéfique, il était nécessaire de bien maîtriser les \textbf{techniques d’analyse de données} et la mise en place de méthodologies de résolutions de problèmes. Au niveau technique, j’ai appris énormément et je suis en perpétuelle apprentissage du langage Java en application avec le Framework Java FX. J’ai d’abord amélioré ma structure de programmation grâce à mon maître de stage et aux développeurs du service informatique qui ont par moments fait des remarques sur mon code. Ils m’ont par moment proposé de changer ma façon de programmer surtout pour des soucis de relecture, d’utilisation et de modification de mon code à long terme.\\
+
+Pour le développement de Safranalyse, des collègues m’ont promulgué des conseils sur \textbf{l’extra-codage} (son efficacité, sa simplicité de réutilisation et modification), en utilisant par exemple le logiciel SONAR ou la JavaDoc, qu'il faudra fournir.\\
+
+ \subsection{LE SAVOIR-ETRE}
+ On distingue les \textbf{compétences inter et intra personnelles} dans le savoir-être.
+ 
+ \subsection{COMPETENCES INTER-PERSONNELLES}
+ 
+Comme me l’a beaucoup fait remarquer mon maître de stage, le plus important en entreprise est de tisser de \textbf{bonnes relations humaines} avec les collègues. Je veille beaucoup à cela. J’écoute ainsi tous les \textbf{conseils} dont je bénéficie chaque jour, les applique, et j’accorde une attention particulière aux différentes remarques. L’\textbf{écoute} est primordiale. J’agis avec considération et \textbf{respect} envers les autres. 
+
+J’améliore principalement l’\textbf{expression de mes points de vue}. Si quelque chose ne va pas, j’en fais part à mon maître de stage. Il ne faut pas avoir peur de manifester son opinion dans la manière d’entreprendre un travail, de proposer une autre méthode ; le résultat doit être cependant partagé au sein de l’équipe pour sa mise en place. L’analyse d’un lancement de projet est très importante.\\
+
+ \subsection{COMPETENCES INTRA-PERSONNELLES}
+Les compétences intra-personnelles aident à avancer aussi bien que les compétences de travail d’équipe. En premier lieu, j’acquiers de jours en jours des compétences telles que le \textbf{sens de la rigueur et de la qualité}. En effet, il faut être attentif lors de la rédaction de rapports, lors de la mise en place d’une stratégie de travail.\\
+
+En deuxième lieu, la \textbf{confiance en moi} se développe, consciente de mes capacités et de mes lacunes. Le fait de travailler entourée de gens plus expérimentés développe ma \textbf{maturité}. J’ai appris à \textbf{travailler vite sous la pression}. Il y a une charge de travail importante certains jours, il faut donc enchaîner les tâches tout en gardant de la rigueur, et répondre aux attentes du chef. J’améliore de jours en jours mes \textbf{capacités d’analyse et de synthèse de résultats}.
+
+\subsection{RESUME DE MES OBSERVATIONS}
+
+A mon arrivée chez Safran, j’avais une idée du \textbf{travail de développeuse}, suite à ma précédente expérience au sein de la CPAM. 
+Mon stage \textbf{de troisième année de licence}, par exemple m’avait ouvert sur le monde du travail et les relations que l’on peut avoir avec ses collègues et ses supérieurs. Les \textbf{cours dispensés} m’ont permis d’acquérir des compétences techniques qui m’ont permis de mieux appréhender les difficultés techniques à résoudre. Ma \textbf{vie associative}, en tant que trésorière à l’université a affiné ma vision de l’organisation du monde professionnel qui s’ouvrira bientôt à moi.\\
+
+Le \textbf{cadre de grand group}e a déjà eu sa part d’importance dans mon étonnement durant le stage. J’en ai tiré aussi bien des avantages que des inconvénients. 
+
+On bénéficie d’\textbf{un environnement de travail agréable} notamment grâce à la présence d’un CE, des salles de gymnastique.\\ 
+
+L’\textbf{anticipation et la prévision du déroulement des projets} m’ont beaucoup marqué. Avant ce stage, je m’étais persuadé moi-même que les plannings et les rapports pré projets n’étaient en réalité pas indispensables pour l’avancement d’un projet, mais que cela servait surtout pour prouver au supérieur hiérarchique la bonne direction de notre lancée. C’est en partie vrai, mais j’ai appris que cela sert bien plus pour soi que pour les autres. Cela nous force à prendre du recul sur ce que l’on compte faire, anticiper le maximum de problèmes auxquels on s’attend à être confrontés, et avoir une date approximative de fin de projet.\\
+
+J’ai compris également que lorsque l’on a un chef, il faut savoir écouter et accepter toute critique. Les critiques que j’ai reçues durant ce stage, rigoureusement construites et portées vers l’avancement du projet, sont utiles pour mener à bien le projet.\\ 
+
+J’ai été étonné de la différence que j’ai constatée entre l’\textbf{implémentation chez soi et l’implémentation en entreprise}. J’ai pu comprendre le fonctionnement d’une équipe pour de tels projets. Le codage que j’avais l’habitude de pratiquer par moi-même pendant mes activités extrascolaires me permettait de ne penser qu’au code même et d’aller relativement vite. Au contraire, en entreprise, beaucoup de temps est consacré à l’extra-codage, comme les commentaires, la lisibilité du code, le téléchargement de nouvelles librairies, la rédaction de rapports. Tout cela me semblait initialement peu utile car freinait mon avancée. Mais l’aide conséquente du service technique, de mon maître de stage et des librairies déjà présentes sur internet m’a montré l’importance de privilégier le côté collectif, plus lent mais plus efficace à long terme que le côté individuel.\\
+
+\chapter{CONCLUSION}
+
+L’\textbf{informatique} est un secteur qui me plaît et dans lequel je serai probablement amené à travailler. Ce stage m’offre l’opportunité de \textbf{découvrir le monde industriel} et plus exactement du \textbf{bureau d’études}, et me donne un aperçu de l’organisation complexe du groupe Safran.\\
+
+Grâce à ce stage, j’ai renforcé mes \textbf{connaissances en informatique} via ce projet, portant aussi bien sur le développement pur que sur une efficacité à gérer en groupe. J’ai acquis également de l’expérience dans la \textbf{gestion des missions et la mise en place de méthodologies}. Celles-ci restent pour moi la priorité dans le métier de chef de projet, ce à quoi j'aspire devenir.\\
+    
+
+
+Preview 
+
+ 
+Manual
+
+Auto
+   
+
+
+
+
+
+
+refresh preview 
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+En outre, j’ai évolué tant sur le \textbf{plan professionnel qu’humain}. L’immersion avec une équipe de travail composée de personnalités diverses m’ont permis de constater les \textbf{différences de métiers au sein d’un même service}. Il est primordial de vivre une telle expérience pour mon futur métier de développeuse. En effet, il faut être complètement immergé dans une équipe pour se rendre compte des difficultés du métier.\\
+
+De plus, j’ai pris conscience de mes \textbf{capacités}, et amélioré ma \textbf{rigueur}, mon \textbf{sens de la communication}, \textbf{mon autonomie}. Mon esprit d’analyse s’est affiné, et j’ai gagné en maturité. Je peux m’autoévaluer et juger des capacités qu’il me manque pour devenir un réel chef de projet.\\
+
+Les entretiens avec plusieurs personnalités m’ont ouvert les yeux sur leurs responsabilités et les difficultés auxquelles elles sont chaque jour confrontées. Le métier de chef de projet m’a beaucoup inspiré car il mêle \textbf{savoir technique et management de projets et d’équipe}.\\
+ 
+Pour conclure, je dirais que ce \textbf{stage} m’aidera à déterminer avec plus de précision la voie que je dois emprunter. Les futures rencontres m’apporteront leur témoignage et me guideront sur les choix que je dois envisager après l’obtention du diplôme.\\
+
+\listoffigures %Table des figures 
